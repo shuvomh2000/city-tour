@@ -1,0 +1,16 @@
+.form input{
+    color:#5E6D77;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.form input::placeholder{
+   font-weight: 400;
+   font-family: 'Poppins', sans-serif;
+   text-transform: capitalize;
+}
+

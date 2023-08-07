@@ -1,0 +1,132 @@
+
+.navbar{
+    padding: 30px 0;
+}
+.navbar .main_menu a{
+    color: #1A2B48;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-left: 25px !important;
+}
+
+.navbar .menu_right a{
+    color: #1A2B48;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .menu_right a .icon{
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.navbar .menu_right .call{
+    padding-right: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.navbar .menu_right .login_part{
+    padding-left: 25px;
+}
+
+.navbar .menu_right .login_part .title{
+    color: #1A2B48;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* login modal */
+.inner{
+    justify-content: space-between !important;
+    padding: 30px;
+}
+
+.inner h3{
+    color: #1A2B48;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    text-transform: capitalize;
+}
+
+.modal_body{
+    padding: 0 30px 30px 30px;
+}
+
+.navbar_input{
+    column-gap: 5px;
+    align-items: center;
+    color: #5E6D77;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar_input input,
+.navbar_input label{
+    cursor: pointer;
+}
+
+.navbar_input a{
+    color: #5191FA;
+}
+
+.navbar_btn{
+    width: 100%;
+    background: #5191FA;
+    padding: 12px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.social_icon{
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.social_icon .social_icon_fb,
+.social_icon .social_icon_go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+
+.social_icon .social_icon_fb a{
+    color:#395899;
+}
+
+.social_icon .social_icon_go a{
+    color:#f34a38 !important;
+}
+
+.modal_footer h3{
+    color: #5E6D77;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.modal_footer h3 a{
+    display: inline-block;
+    color: #5191FA;
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
