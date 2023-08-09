@@ -1,0 +1,42 @@
+.venice_part{
+    margin-top: 60px;
+}
+
+.venice_part .venice_bio{
+    width: 24%;
+}
+
+.venice_part .venice_bio h3{
+    color: #1A2B48;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.venice_part .venice_bio h3:after{
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background: #1A2B48;
+}
+
+.venice_part .venice_bio p{
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.venice_part .venice_imgPart{
+    column-gap: 30px;
+}
+
+.venice_part .venice_img{
+    width: 30%;
+}

@@ -1,6 +1,6 @@
 
 .navbar{
-    padding: 30px 0;
+    padding: 23px 0;
 }
 .navbar .main_menu a{
     color: #1A2B48;
@@ -9,6 +9,9 @@
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     padding-left: 25px !important;
+}
+.navbar .main_menu a:hover{
+    color: #5191FA;
 }
 
 .navbar .menu_right a{
@@ -29,6 +32,10 @@
     border-right: 1px solid #ddd;
 }
 
+.navbar .menu_right .call:hover a{
+    text-decoration: underline;
+}
+
 .navbar .menu_right .login_part{
     padding-left: 25px;
 }
@@ -40,6 +47,11 @@
     text-transform: capitalize;
     padding-top: 4px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.navbar .menu_right .login_part .title:hover{
+    text-decoration: underline;
 }
 
 /* login modal */
@@ -67,6 +79,11 @@
     font-size: 14px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+}
+
+.navbar_input label{
+    margin-left: 5px;
 }
 
 .navbar_input input,
@@ -76,6 +93,7 @@
 
 .navbar_input a{
     color: #5191FA;
+    margin-left: 5px;
 }
 
 .navbar_btn{

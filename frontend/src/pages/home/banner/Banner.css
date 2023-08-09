@@ -1,0 +1,43 @@
+.banner_part{
+    background-image: url("/public/assets/images/homePage/banner.png"); 
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+    background-repeat: 'no-repeat';
+    background-position:center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner_part h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner_part h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 25px 0 55px 0;
+}
+
+.banner_part .btn{
+    color: #1A2B48;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    padding: 15px 50px;
+    background: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.banner_part .btn:focus-visible {
+    color: var(--bs-btn-hover-color);
+    background-color:#fff;
+    border-color: #fff; 
+}

@@ -12,11 +12,11 @@ import "./Navbars.css";
 const Navbars = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleShow = () => setShow(true);
 
   const [showr, setShowr] = useState(false);
   const handleCloser = () => setShowr(false);
-  const handleShowr = () => setShowr(true);
+  // const handleShowr = () => setShowr(true);
 
   const handleModal = () => {
     if (show == false) {
@@ -30,7 +30,7 @@ const Navbars = () => {
 
   return (
     <Navbar className="navbar">
-      <Container>
+      <Container fluid="xl">
         <Navbar.Brand href="#home">
           <Image src="assets/images/homePage/logo.png" />
         </Navbar.Brand>
@@ -127,7 +127,7 @@ const Navbars = () => {
                 <Flex className="navbar_input">
                   <div>
                     <input type="checkbox" id="privacy_policy" />
-                    <label for="privacy_policy">remember me</label>
+                    <label for="privacy_policy">Remember me</label>
                   </div>
                   <a href="#">forget password?</a>
                 </Flex>
