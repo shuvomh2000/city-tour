@@ -1,0 +1,19 @@
+.heading{
+    color: #1A2B48;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    /* margin-top: 100px; */
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.heading:after{
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background: #1A2B48;
+}

@@ -1,0 +1,27 @@
+.popular_part .popular_inner{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.popular_part .popular_inner .popular_box{
+    width: 30%;/* width: 370px; */
+}
+
+.popular_part .popular_inner .popular_box .popular_img{
+    position: relative;
+    cursor: pointer;
+}
+
+.popular_part .popular_inner .popular_box .popular_img h3{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 6px 10px;
+    border-radius: 0 3px 3px 0;
+    background: #19A1E5;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    cursor:text;
+}

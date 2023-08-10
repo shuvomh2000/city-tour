@@ -131,7 +131,7 @@ const Navbars = () => {
                   </div>
                   <a href="#">forget password?</a>
                 </Flex>
-                <Btn title="sign up" className="navbar_btn" />
+                <Btn title="login" className="navbar_btn" />
                 <div className="modal_footer">
                   <h3>or continue with</h3>
                   <Flex className="social_icon">

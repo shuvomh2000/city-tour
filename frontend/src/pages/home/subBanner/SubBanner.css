@@ -1,0 +1,46 @@
+.sub_banner {
+  background-image: url("/public/assets/images/homePage/subBanner.png");
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-repeat: "no-repeat";
+  background-position: center;
+  padding: 50px 115px;
+  margin: 60px 0;
+}
+
+.sub_banner .sub_banner_part {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_banner .sub_banner_part h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 10px;
+}
+
+.sub_banner .sub_banner_part h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.sub_banner .sub_banner_part a {
+  color: #1a2b48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 30px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+}
+
+.sub_banner .sub_banner_part a:hover {
+  color: #fff;
+  background: #1a2b48;
+}

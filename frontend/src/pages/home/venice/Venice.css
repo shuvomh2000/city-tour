@@ -1,29 +1,10 @@
 .venice_part{
     margin-top: 60px;
+    column-gap: 35px;
 }
 
 .venice_part .venice_bio{
     width: 24%;
-}
-
-.venice_part .venice_bio h3{
-    color: #1A2B48;
-    font-size: 28px;
-    font-weight: 600;
-    font-family: 'Cabin', sans-serif;
-    margin-top: 100px;
-    margin-bottom: 70px;
-    position: relative;
-}
-
-.venice_part .venice_bio h3:after{
-    position: absolute;
-    content: '';
-    bottom: -30px;
-    left: 0;
-    width: 80px;
-    height: 2px;
-    background: #1A2B48;
 }
 
 .venice_part .venice_bio p{
@@ -34,9 +15,74 @@
 }
 
 .venice_part .venice_imgPart{
-    column-gap: 30px;
+    width: 73%;
+    position: relative;
 }
 
 .venice_part .venice_img{
-    width: 30%;
+    width: 272px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 15px;
+}
+
+.venice_part .venice_img .venice_price{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    background: #1A2B48;
+    height: 60px;
+    padding: 10px 15px;
+}
+
+.venice_part .venice_img .venice_price h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Cabin', sans-serif;
+}
+
+.venice_part .venice_img .venice_price h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+}
+
+.venice_part .venice_img .venice_price h3 span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+/* slider css */
+
+.venice_part .venice_imgPart .arrows{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.venice_part .venice_imgPart .right_arrow{
+    right: -25px;
+}
+
+.venice_part .venice_imgPart .left_arrow{
+    left: -25px;
+}
+
+.venice_part .venice_imgPart .arrow_icon{
+    color: #999;
+    font-size: 28px;
 }
