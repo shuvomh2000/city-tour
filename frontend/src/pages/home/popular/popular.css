@@ -1,15 +1,19 @@
-.popular_part .popular_inner{
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.popular_part .popular_inner .popular_box{
-    width: 30%;/* width: 370px; */
+.popular_part .popular_box{
+    padding: 0 30px;
 }
 
 .popular_part .popular_inner .popular_box .popular_img{
     position: relative;
     cursor: pointer;
+    overflow: hidden;
+}
+
+.popular_part .popular_inner .popular_box .popular_img img{
+    transition: all linear .2s;
+}
+
+.popular_part .popular_inner .popular_box .popular_img:hover img{
+    transform: scale(1.1);
 }
 
 .popular_part .popular_inner .popular_box .popular_img h3{
@@ -24,4 +28,108 @@
     top: 20px;
     left: 0;
     cursor:text;
+}
+
+.popular_part .popular_inner .popular_box .popular_text{
+    padding: 10px 15px 55px 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 0 0 3px 3px;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail1{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail1 h3{
+    color: #1A2B48;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    width: 215px;
+    cursor: pointer;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail1 h3:hover{
+    text-decoration: underline;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail1 .popular_detail1_icon{
+    color: #a0a9b2;
+    font-size: 18px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail2{
+    column-gap: 15px;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail2 .popular_detail2_icon{
+    color: #a0a9b2;
+    font-size: 18px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail2 h3{
+    color: #5E6D77;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .cross_text{
+    color: #c9cfd5;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3{
+    justify-content: space-between;
+    align-content: center;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_left{
+    column-gap: 5px;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_left .popular_detail3_left_hour,
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_left .popular_detail3_left_icon{
+    color: #5E6D77;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_right{
+    align-content: center;
+    column-gap: 3px;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_right .popular_price{
+   color: #1A2B48;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Cabin', sans-serif;
+   cursor: pointer;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_right .popular_price_icon{
+   color: #ffab53;
+   font-size: 18px;
+}
+
+.popular_part .popular_inner .popular_box .popular_text .popular_detail3 .popular_detail3_right .popular_price span{
+    display: inline-block;
+    color: #5E6D77;
+   font-size: 14px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif;
+   margin-right: 5px;
 }

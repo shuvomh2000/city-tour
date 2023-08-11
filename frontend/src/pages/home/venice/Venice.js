@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import { Container } from "react-bootstrap";
 import Flex from "../../../components/layouts/Flex";
 import Image from "../../../components/layouts/Image";
+import Title from "../../../components/layouts/title/Title";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import "slick-carousel/slick/slick.css";
 import "./Venice.css";
-import Title from "../../../components/layouts/title/Title";
 
 function SampleNextArrow({ onClick }) {
   return (
