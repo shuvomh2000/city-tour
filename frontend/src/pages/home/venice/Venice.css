@@ -1,7 +1,12 @@
+
+
 .venice_part{
     margin-top: 60px;
     column-gap: 35px;
 }
+
+
+  
 
 .venice_part .venice_bio{
     width: 24%;
@@ -86,3 +91,11 @@
     color: #999;
     font-size: 28px;
 }
+
+/* .venice_part .slick-slide > div{
+    margin: 0 15px;
+}
+
+.venice_part .slick-list{
+    margin: 0 -15px;
+} */

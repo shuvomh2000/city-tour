@@ -13,21 +13,24 @@ import "./popular.css";
 
 const Popular = () => {
   const settings = {
+    // className: "center",
     dots: true,
     infinite: true,
-    autoplay: true,
-    arrow: false,
+    autoplay: false,
+    arrows: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    pauseOnHover: true
+    // pauseOnHover: true,
+    // centerPadding: "60px",
+    // centerMode: true,
   };
   return (
     <Container className="popular_part">
       <Title title="Popular tour in the month" />
       <div className="popular_inner">
         <Slider {...settings}>
-          <div className="popular_box">
+          <div>
             <div className="popular_img">
               <Image src="assets/images/homePage/popular1.png" />
               <h3>featured</h3>
@@ -62,8 +65,7 @@ const Popular = () => {
               </Flex>
             </div>
           </div>
-          {/*  */}
-          <div className="popular_box">
+          <div>
             <div className="popular_img">
               <Image src="assets/images/homePage/popular1.png" />
               <h3>featured</h3>
@@ -98,8 +100,7 @@ const Popular = () => {
               </Flex>
             </div>
           </div>
-          {/*  */}
-          <div className="popular_box">
+          <div >
             <div className="popular_img">
               <Image src="assets/images/homePage/popular1.png" />
               <h3>featured</h3>
@@ -134,7 +135,6 @@ const Popular = () => {
               </Flex>
             </div>
           </div>
-          {/*  */}
           <div className="popular_box">
             <div className="popular_img">
               <Image src="assets/images/homePage/popular1.png" />

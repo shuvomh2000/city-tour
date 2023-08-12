@@ -1,0 +1,44 @@
+.enjoy_part{
+    background-image: url("/public/assets/images/homePage/enjoyBanner.png"); 
+    width: 100%;
+    background-size: cover;
+    background-repeat: 'no-repeat';
+    background-position:center;
+    padding: 180px 0;
+    margin-top: 60px;
+}
+
+.enjoy_part h2{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+}
+
+.enjoy_part p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.enjoy_part .enjoy_btn{
+    color: #1A2B48;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 45px;
+    background: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border-color: transparent;
+    transition: all linear .3s;
+}
+
+.enjoy_part .enjoy_btn:hover{
+    color: #ffffff;
+    background: #1A2B48;
+}

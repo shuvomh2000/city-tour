@@ -1,0 +1,31 @@
+.service_part{
+    padding: 80px 0;
+    background: #f6f9ff;
+}
+
+.service_part .service_inner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_part .service_inner .service1{
+    column-gap: 30px;
+}
+
+.service_part .service_inner .service1 h4{
+    color: #1A2B48;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+}
+
+.service_part .service_inner .service1 p{
+    color: #1A2B48;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    width: 215px;
+}
+
