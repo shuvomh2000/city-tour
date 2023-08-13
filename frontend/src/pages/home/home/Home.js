@@ -4,7 +4,10 @@ import Venice from "../venice/Venice";
 import SubBanner from "../subBanner/SubBanner";
 import Popular from "../popular/Popular";
 import Enjoy from "../enjoy/Enjoy";
-import Service from "../service/Service";
+import Services from "../services/Services";
+import Activitys from "../activitys/Activitys"
+import Recent from "../recent/Recent";
+import Testimonial from "../testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -14,7 +17,10 @@ const Home = () => {
       <SubBanner/>
       <Popular/>
       <Enjoy/>
-      <Service/>
+      <Services/>
+      <Activitys/>
+      <Testimonial/>
+      <Recent/>
     </>
   );
 };

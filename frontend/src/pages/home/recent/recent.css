@@ -1,0 +1,40 @@
+
+.recent_part{
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 60px;
+}
+
+.recent_part .recent_img{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.recent_part .recent_img img{
+    transition: all linear .2s;
+}
+
+.recent_part .recent_img:hover img{
+    transform: scale(1.1);
+}
+
+.recent_part h3 {
+  color: #1a2b48;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-top: 22px;
+  margin-bottom: 18px;
+}
+
+.recent_part h3:hover {
+  text-decoration: underline;
+}
+
+.recent_part p {
+  color: #5e6d77;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}

@@ -2,9 +2,9 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import Flex from "../../../components/layouts/Flex"
 import Image from "../../../components/layouts/Image"
-import "./service.css"
+import "./services.css"
 
-const service = () => {
+const services = () => {
   return (
     <div className='service_part'>
         <Container>
@@ -45,4 +45,4 @@ const service = () => {
   )
 }
 
-export default service
+export default services

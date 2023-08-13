@@ -1,0 +1,126 @@
+
+.search_part{
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border-radius: 10px;
+    margin-top: -45px;
+}
+
+.search_part .search1 {
+  width: 25%;
+  padding: 25px 0 25px 33px;
+  align-items: center;
+  column-gap: 12px;
+  border-right: 1px solid #eee;
+  border-radius: 5px 0 0 5px;
+  background:#fff;
+  cursor:pointer;
+}
+
+.search_part .search2 {
+  width: 20%;
+  padding: 25px 0 25px 33px;
+  align-items: center;
+  column-gap: 12px;
+  border-right: 1px solid #eee;
+  background:#fff;
+  cursor:pointer;
+}
+.search_part .search3 {
+  width: 20%;
+  padding: 25px 0 25px 33px;
+  align-items: center;
+  column-gap: 12px;
+  border-right: 1px solid #eee;
+  background:#fff;
+  cursor:pointer;
+}
+
+.search_part .search4 {
+  width: 20%;
+  padding: 25px 0 25px 33px;
+  align-items: center;
+  column-gap: 12px;
+  cursor:pointer;
+  background:#fff;
+}
+
+.search_part .search2 h4,
+.search_part .search3 h4,
+.search_part .search4 h4{
+    color: #5E6D77;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7px;
+}
+
+/* .search_part .search1 h4{
+    color: #5191FA;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7px;
+} */
+
+.search_part .search1 .search_icon,
+.search_part .search2 .search_icon,
+.search_part .search3 .search_icon,
+.search_part .search4 .search_icon{
+    color: #5E6D77;
+    font-size: 24px;
+}
+
+.search_part .search5 {
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  background: #1A2B48;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search_part .search5 h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+/* dropdown start */
+.search_part .select_part{
+    position: relative;
+}
+.search_part .select_part select{
+    border: none;
+    color: #5191FA;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    /* display: none;  */
+}
+
+.search_part .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    display:none;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  
+/*style items (options):*/
+.search_part .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }

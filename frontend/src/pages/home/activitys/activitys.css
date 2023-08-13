@@ -1,0 +1,39 @@
+
+.act{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.act_part{
+    overflow: hidden;
+    position: relative;
+}
+
+.act_part img{
+   transition: all linear .2s;
+}
+
+.act_part:hover img{
+   transform: scale(1.1);
+}
+
+.act_part h4{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.act .slick-slide > div{
+    margin: 0 10px !important;
+}
+
+.act .slick-list{
+    margin: 0 -10px !important;
+}
