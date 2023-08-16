@@ -90,37 +90,20 @@
 }
 
 /* dropdown start */
-.search_part .select_part{
+.search_part {
     position: relative;
 }
-.search_part .select_part select{
+.search_part select{
     border: none;
     color: #5191FA;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    /* display: none;  */
+    appearance: none;
+    cursor: pointer;
 }
 
-.search_part .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    display:none;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-  }
+.search_part select::-ms-expand {
+  display: none;
+}
 
-  
-/*style items (options):*/
-.search_part .select-items {
-    position: absolute;
-    background-color: DodgerBlue;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
