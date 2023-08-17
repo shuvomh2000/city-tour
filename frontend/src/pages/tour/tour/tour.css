@@ -1,0 +1,12 @@
+
+.tour_part{
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.tour_part .tour_right{
+    width: 75%;
+}
+.tour_part .tour_left{
+    width: 25%;
+}
