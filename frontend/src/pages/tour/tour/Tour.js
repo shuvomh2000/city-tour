@@ -2,8 +2,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Overview from "../overview/Overview";
 import Flex from "../../../components/layouts/Flex"
-import "./tour.css";
 import Highlight from "../highlight/Highlight";
+import TourDetails from "../tourDetails/TourDetails";
+import "./tour.css";
 
 const Tour = () => {
   return (
@@ -12,6 +13,7 @@ const Tour = () => {
         <div className="tour_right">
             <Overview/>
             <Highlight/>
+            <TourDetails/>
         </div>
         <div className="tour_left"></div>
       </Flex>

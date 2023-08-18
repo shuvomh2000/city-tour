@@ -1,0 +1,81 @@
+.tourdeatils_part {
+  padding: 40px 0;
+  border-bottom: 2px solid #d7dce3;
+}
+
+.tourdeatils_part .tourdeatils_heading {
+  margin-bottom: 30px;
+}
+
+.tourdeatils_part .accordion-button:focus {
+  box-shadow: none;
+}
+
+.tourdeatils_part .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.tourdeatils_part .accordion-button {
+  color: #1a2b48;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Cabin", sans-serif;
+  background: transparent;
+}
+
+.tourdeatils_part .accordion-item {
+  border: 1px solid #d7dce3;
+  border-radius: 3px !important;
+  margin-bottom: 10px;
+  border-left: 6px solid #5191fa;
+  padding: 5px 10px;
+}
+
+.tourdeatils_part .accordion-item:first-child {
+  border-left: 6px solid #2ecc71;
+}
+
+.tourdeatils_part .accordion-item:last-child {
+  border-left: 6px solid #2ecc71;
+  margin-bottom: 0;
+}
+
+.tourdeatils_part .dropdown_item {
+  color: #5e6d77;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+}
+
+.Includ_part {
+  padding: 30px 0;
+  border-bottom: 2px solid #d7dce3;
+}
+
+.Includ_part .Includ_box {
+  margin-top: 30px;
+  justify-content: space-between;
+  color: #768090;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.Includ_part .Includ_box .Includ_left,
+.Includ_part .Includ_box .Includ_right {
+  width: 46%;
+}
+
+.Includ_part .Includ_box .success{
+    font-size: 16px;
+    color: #2ecc71;
+    margin-right: 15px;
+}
+
+.Includ_part .Includ_box .error{
+    font-size: 16px;
+    color: red;
+    margin-right: 15px;
+}
