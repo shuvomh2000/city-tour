@@ -1,6 +1,7 @@
 
 .navbar{
     padding: 23px 0;
+    border-bottom: 1px solid #d7dce3;
 }
 .navbar .main_menu a{
     color: #1A2B48;

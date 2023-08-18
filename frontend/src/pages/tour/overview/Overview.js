@@ -2,9 +2,11 @@ import React from "react";
 import Flex from "../../../components/layouts/Flex";
 import Image from "../../../components/layouts/Image";
 import { BiSolidMap, BiTime } from "react-icons/bi";
+import { AiFillStar } from "react-icons/ai";
 import { FaCarSide } from "react-icons/fa";
 import {MdPeopleOutline,MdOutlineGTranslate  } from "react-icons/md";
 import "./overview.css";
+import SubHeading from "../../../components/layouts/subheadings/SubHeadings";
 
 const Overview = () => {
   return (
@@ -20,11 +22,11 @@ const Overview = () => {
         </Flex>
         <Flex className="review">
           <Flex>
-            <BiSolidMap />
-            <BiSolidMap />
-            <BiSolidMap />
-            <BiSolidMap />
-            <BiSolidMap />
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
           </Flex>
           <h6>3 reviews</h6>
         </Flex>
@@ -60,6 +62,10 @@ const Overview = () => {
           </div>
         </Flex>
       </Flex>
+      <div className="text">
+        <SubHeading title="overview"/>
+        <p>Start and end in San Francisco! With the in-depth cultural tour Northern California Summer 2019, you have a 8 day tour package taking you through San Francisco, USA and 9 other destinations in USA. Northern California Summer 2019 includes accommodation as well as an expert guide, meals, transport and more.</p>
+      </div>
     </div>
   );
 };
